@@ -1,0 +1,32 @@
+[
+  {
+    "id": 5005,
+    "desc": "+10% Швидкості Атаки",
+    "icon": "perk-images/StatMods/StatModsAttackSpeedIcon.png"
+  },
+  {
+    "id": 5007,
+    "desc": "+8 Швидкості Перезарядки",
+    "icon": "perk-images/StatMods/StatModsCDRScalingIcon.png"
+  },
+  {
+    "id": 5008,
+    "desc": "+9 Адаптивної Сили",
+    "icon": "perk-images/StatMods/StatModsAdaptiveForceIcon.png"
+  },
+  {
+    "id": 5002,
+    "desc": "+6 Броні",
+    "icon": "perk-images/StatMods/StatModsArmorIcon.png"
+  },
+  {
+    "id": 5003,
+    "desc": "+8 Магічного Опору",
+    "icon": "perk-images/StatMods/StatModsMagicResIcon.png"
+  },
+  {
+    "id": 5001,
+    "desc": "+15-80 Здоров'я (залежить від рівня)",
+    "icon": "perk-images/StatMods/StatModsHealthScalingIcon.png"
+  }
+]

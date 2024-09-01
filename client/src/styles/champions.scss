@@ -1,0 +1,200 @@
+.champions {
+  padding-left: 180px;
+
+  .header-search {
+    margin-left: unset;
+  }
+
+  &__list {
+    background: #001027;
+    padding: 20px;
+  }
+
+  .ant-input-affix-wrapper { 
+    width: 300px;
+  }
+
+  img {
+    width: 70px;
+    height: 70px;
+  }
+
+  .ant-radio-button-wrapper {
+    padding: 9px;
+    height: 40px;
+    width: 40px;
+    background: #001027;
+
+    img {
+      width: 20px;
+      height: 20px;
+    }
+  }
+
+  &__filters {
+    margin: 0 0 30px 20px;
+    padding-left: 12px;
+  }
+}
+
+.champion-page {
+  .summoner-page__name {
+    font-size: 35px !important;
+    margin-bottom: 40px;
+  }
+
+  .skills-order-card .ant-card-body {
+    padding: 16.5px;
+  }
+
+  .skill-order__cell__letter {
+    color: white;
+  }
+
+  .skill-order__cell {
+    background-color: #08d1f530;
+  }
+
+  .skill-order__outer-cell {
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+
+    .selected {
+      background-color: #08d1f5;
+    }
+  }
+
+  .summoner-page__profile-icon {
+    width: 130px;
+    height: 130px;
+  }
+
+  &__cell {
+    position: relative;
+    margin-bottom: -5px;
+
+    img {
+      width: 40px;
+      height: 40px;
+    }
+
+    &__letter {
+      position: absolute;
+      background-color: black;
+      color: white;
+      padding: 2px;
+      padding-top: unset;
+      width: 20px;
+      height: 20px;
+      text-align: center;
+      line-height: 20px;
+      font-size: 10px;
+      right: 4px;
+      bottom: 4px;
+    }
+  }
+
+  .ant-col-offset-3 {
+    margin-inline-start: 8.5% !important; 
+  }
+
+  .ant-card {
+    background-color: #001027;
+  }
+
+  .ant-card-head-title {
+    color: white !important;
+  }
+
+  &__items {
+    color: white;
+    img {
+      width: 40px;
+      height: 40px;
+      margin: 5px;
+    }
+  }
+
+  &__counter-picks {
+    .row {
+      max-height: 150px;
+      flex-flow: row;
+      overflow-y: hidden;
+      overflow-x: scroll;
+      padding-bottom: 13px;
+    }
+
+    ::-webkit-scrollbar {
+      width: 5px;
+      height: 5px;
+    }
+     
+    ::-webkit-scrollbar-thumb {
+      background: white;
+      border-radius: 5px;
+      transition-duration: 0.5s;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+      background: #08d1f5;
+    }
+     
+    .ant-card-body {
+      padding: 15px;
+    }
+  }
+  
+
+  &__enemies {
+    color: white;
+    text-align: center;
+
+    .ant-col {
+      font-size: 11px !important;
+      padding: 2px;
+    }
+
+    img {
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+    }
+  }
+}
+
+.cards-container {
+  background-color: #001027;
+  color: white;
+  font-weight: 650;
+  text-align: center;
+  border-radius: 10px;
+
+  .card {
+    margin: 0 auto;
+    padding: 20px;
+
+    .role-img {
+      width: 20px;
+      height: 20px;
+    }
+
+    &__content {
+      font-size: 20px;
+    }
+
+    &__description {
+      font-weight: 300;
+      color: lightgray;
+      font-size: 12px;
+    }
+  }
+}
+
+.ant-btn-primary:disabled {
+  color: white !important;
+  background-color: #1677ff70;
+}
+
+.delete-account-card {
+  color: white;
+}

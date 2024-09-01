@@ -1,0 +1,700 @@
+.summoner-page {
+  padding: 50px 250px;
+
+  .active-match {
+    padding: 20px;
+    font-weight: 650;
+
+    .ant-table-row-expand-icon {
+      background: #001027;
+      color: white;
+    }
+
+    &__time-queue {
+      color: white;
+      font-size: 15px;
+      font-weight: 600;
+      padding-top: 10px;
+    }
+
+    .tier-i {
+      color: grey;
+      font-weight: 800;
+    }
+
+    .tier-b {
+      color: rgb(114, 74, 40);
+      font-weight: 800;
+    }
+
+    .tier-s {
+      color: white;
+      font-weight: 800;
+    }
+
+    .tier-g {
+      color: orange;
+      font-weight: 800;
+    }
+
+    .tier-p {
+      color: lightseagreen;
+      font-weight: 800;
+    }
+
+    .tier-d {
+      color: rgb(44, 53, 177);
+      font-weight: 800;
+    }
+
+    tr {
+      margin-top: 5px;
+    }
+
+    .ant-table-content {
+      border: 1px solid transparent;
+      border-radius: 10px;
+      color: white;
+      overflow: hidden;
+
+      .ant-table-cell-row-hover {
+        background-color: #001027 !important;
+      }
+
+      .blue td {
+        background-color: #1e2b5e;
+      }
+
+      .red td {
+        background-color: #3e223b;
+      }
+    }
+
+    .ant-table-tbody >tr >td:last-child {
+      border-top: 10px solid #001027;
+      border-right: unset !important;
+    }
+
+    .ant-table-tbody >tr >td {
+      border-top: 10px solid #001027;
+      border-right: unset !important;
+    }
+
+    table {
+      border-top: unset !important;
+    }
+
+    .ant-table-thead tr th{
+      background-color: #001027 !important;
+      color: white;
+    }
+  }
+
+  .empty-dark {
+    margin: 30px;
+    color: white;
+  }
+
+  .main-tabs {
+    .ant-tabs-nav {
+      margin-bottom: unset;
+      border-color: #001027;
+      border-bottom-color: #001027;
+    }
+
+    .ant-tabs-tab {
+      border: 1px solid #001027;
+      border-bottom: unset;
+
+      .ant-tabs-tab-btn {
+        color: #001027 !important;
+      }
+    }
+
+    .ant-card-bordered {
+      border: unset;
+    }
+
+    .ant-tabs-content-holder {
+      background-color: #001027;
+    }
+
+    .ant-tabs-tab-active {
+      background-color: #001027;
+
+      .ant-tabs-tab-btn {
+        color: white !important;
+      }
+    }
+  }
+
+  &__profile-icon {
+    width: 100%;
+  }
+
+  &__level {
+    display: block;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    margin-right: unset;
+  }
+
+  &__name-row {
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    padding-bottom: 3px;
+  }
+
+  &__name {
+    font-size: 20px;
+    font-weight: bold;
+    text-overflow: wrap;
+    overflow: hidden;
+    text-align: left;
+    overflow-wrap: break-word;
+  }
+
+  .unranked {
+    .ant-card-body {
+      display: none;
+    }
+  }
+
+  .game-history {
+    .flex-col {
+      align-items: center;
+      display: flex;
+    }
+
+    &__tabs {
+      .ant-tabs-nav {
+        margin-bottom: 20px;
+        border-color: #001027;
+        border-bottom-color: #001027;
+      }
+  
+      .ant-tabs-tab {
+        border: 1px solid transparent;
+        border-bottom: 20px;
+  
+        .ant-tabs-tab-btn {
+          color: white !important;
+        }
+      }
+
+      .ant-tabs-content-holder {
+        background-color: transparent;
+      }
+    }
+
+    .ant-collapse-expand-icon {
+      height: 70px !important;
+      color: white;
+    }
+
+    &__participants {
+      flex-direction: column; 
+      max-height: 70px;
+      text-align: left;
+    }
+
+    .ant-tabs-tab {
+      background-color: transparent;
+      color:#d2dfed !important;
+      border: 1px solid transparent;
+    }
+
+    .ant-tabs-tab-active,
+    .ant-tabs-tab:hover {
+      border: 1px solid #001027;
+      background-color: #001027;
+      border-bottom-color: #001027 !important;
+    }
+
+    .ant-tabs-tab-active .ant-tabs-tab-btn,
+    .ant-tabs-tab:hover .ant-tabs-tab-btn {
+      color: white;
+    }
+
+    .ant-tabs-nav::before {
+      border-bottom: unset;
+    }
+
+    .ant-collapse-header {
+      padding: 0;
+    }
+
+    .anticon-right {
+      color: white;
+      right: -5px !important;
+    }
+
+    .ant-collapse, 
+    .ant-collapse-content,
+    .ant-collapse-item {
+      background-color: unset;
+      border: unset;
+      border-bottom: unset;
+      width: 100%;
+    }
+
+    .league-info {
+      width: 100%;
+
+      .ant-card-body {
+        padding: 15px;
+      }
+    }
+
+    .ant-list-item {
+      border-bottom: unset !important;
+    }
+
+    &__small-img {
+      width: 10px !important;
+      height: 10px;
+      margin-right: 5px;
+    }
+
+    &__champ-level {
+      position: absolute;
+      border: 1px solid white;
+      border-radius: 5%;
+      background-color: #001027;
+      font-size: 10px;
+      width: 15px;
+      height: 15px;
+      text-align: center;
+      padding-bottom: 2px;
+      bottom: 0px;
+    }
+
+    &__perk {
+      height: 25px !important;
+      width: 25px !important;
+      position: absolute;
+      background-color: #0010277e;
+      padding: 1px;
+      border-radius: 20%;
+    }
+
+    .main-perk {
+      left: 52px !important;
+      top: 0px;
+    }
+
+    .sub-perk {
+      bottom: 0px;
+      left: 52.5px;
+      height: 24px !important;
+      width: 24px !important;
+      padding: 3px;
+    }
+
+    &__spell {
+      height: 24px !important;
+      width: 24px !important;
+      position: absolute;
+      border-radius: 20%;
+    }
+
+    .main-spell {
+      left: 80px !important;
+      top: 0px;
+    }
+
+    .sub-spell {
+      bottom: 0px;
+      left: 80px;
+    }
+
+    &__current-champion {
+      height: 50px;
+      width: 50px !important;
+    }
+
+    .ant-list, .ant-row {
+      width: 100%;
+      color: white;
+    }
+
+    .ant-list-item {
+      padding: 10px;
+    }
+
+    &__type, 
+    &__duration {
+      text-align: center;
+      font-size: 11px;
+    }
+
+    &__win {
+      background-color: #1e2b5e;
+      border-radius: 10px;
+      margin-bottom: 5px;
+    }
+
+    &__loose {
+      background-color: #3e223b;
+      border-radius: 10px;
+      margin-bottom: 5px;
+    }
+
+    &__created {
+      text-align: center;
+      font-size: 11px;
+      color: rgba(250, 250, 250, 0.75)
+    }
+
+    &__item-image,
+    &__item-placeholder {
+      width: 25px !important;
+      height: 25px;
+      border-radius: 20%;
+      margin: 1px;
+    }
+
+    .deaths {
+      color:#E97777;
+    }
+
+    .ant-tabs-nav-list {
+      width: 100%;
+      justify-content: space-around;
+    }
+
+    &__item-placeholder {
+      background-color: #0010277e;
+    }
+
+    .own-img {
+      border-radius: 50%;
+    }
+
+    .own-name {
+      color: white !important;
+    }
+
+    .truncate-summoner-name {
+      display: inline-block;
+      width: 50px;
+      line-height: 10px;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      overflow: hidden;
+      text-align: left;
+      color: darkgrey;
+    }
+
+    a {
+      line-height: 13px;
+    }
+
+    .ant-table {
+      background: unset;
+      color: white;
+      font-size: 11px;
+
+      .game-history__item-image, 
+      .game-history__item-placeholder {
+        height: 20px !important;
+        width: 20px !important;
+      }
+
+      .ant-table-cell {
+        padding: 4px 8px;
+      }
+
+      .game-history__perk {
+        height: 18px !important;
+        width: 18px !important;
+      }
+  
+      .main-perk {
+        left: 42px !important;
+        top: 0px;
+      }
+  
+      .sub-perk {
+        bottom: 0px;
+        left: 42.5px;
+      }
+  
+      .game-history__spell {
+        height: 16px !important;
+        width: 16px !important;
+        left: 62px !important;
+      }
+  
+      .main-spell {
+        top: 0px;
+      }
+  
+      .sub-spell {
+        bottom: 1px;
+      }
+  
+      .game-history__current-champion {
+        height: 40px;
+        width: 40px !important;
+      }
+
+      td {
+        border-bottom: unset;
+      }
+    }
+
+    .table-win {
+      background-color: #1e2b5e;
+      border: 1px solid #08d1f5;
+      border-radius: 10px;
+
+      a {
+        display: block;
+      }
+
+      .selected-row,
+      .ant-table-cell-row-hover {
+        background-color: #08d1f520 !important;
+      }
+
+      .ant-table-thead th {
+        background-color: #08d1f5;
+        border-bottom: unset;
+      }
+    }
+
+    .table-loose {
+      background-color: #3e223b;
+      border: 1px solid #E97777;
+      border-radius: 10px;
+
+      a {
+        display: block;
+      }
+
+      .selected-row,
+      .ant-table-cell-row-hover {
+        background-color: #E9777720 !important;
+      }
+
+      .ant-table-thead th {
+        background-color: #E97777;
+        border-bottom: unset;
+      }
+    }
+
+    .total-damage {
+      font-size: 11px;
+    }
+
+    .perfomance-table {
+      border: 2px solid #001027;
+      border-radius: 10px;
+
+      .ant-table-thead th {
+        background-color: #001027;
+        border-bottom: unset;
+        color: white;
+      }
+
+      .row-win {
+        background-color: #1e2b5e;
+
+        .ant-table-column-sort, 
+        .ant-table-cell-row-hover {
+          background-color: #08d1f540;
+        }
+
+        .ant-progress-bg {
+          background-color: #08d1f5;
+        }
+      }
+
+      .row-loose {
+        background-color: #3e223b;
+
+        .ant-table-column-sort,
+        .ant-table-cell-row-hover {
+          background-color: #E9777740;
+        }
+
+        .ant-progress-bg {
+          background-color: #E97777;
+        }
+      }
+    }
+  }
+
+  .recently-played {
+    a {
+      display: inline-block;
+      width: 50px;
+      line-height: 10px;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      overflow: hidden;
+      text-align: left;
+    }
+
+    .summoner-img-col {
+      padding-left: unset !important;
+      padding-right: unset !important;
+      height: 20px;
+    }
+
+    td {
+      padding: 4px 16px !important;
+    }
+
+    .ant-table,
+    .ant-table-thead th, a {
+      font-size: 10px;
+      background: unset;
+      color: white;
+    }
+
+    .ant-table-cell-row-hover {
+      background-color: unset !important;
+    }
+
+    .ant-card-body {
+      padding: unset;
+    }
+
+    img {
+      width: 20px;
+      height: 20px;
+    }
+  }
+
+  .item-bluid {
+    .ant-divider {
+      border-top-color: rgba(255, 255, 255, 0.7);
+      margin: 25px 0;
+    }
+  }
+}
+
+.participant-build-items {
+  img {
+    width: 30px !important;
+    height: 30px;
+  }
+
+  &__item {
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+    padding: 5px;
+    background-color: #001027;
+    width: 40px;
+    height: 40px;
+    max-width: unset;
+    position: relative;
+  }
+
+  &__time {
+    position: absolute;
+    color: rgba(250, 250, 250, 0.75);
+    font-size: 11px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .sold-icon {
+    color: red;
+    position: absolute;
+    left: 5px;
+      bottom: 5px;
+  }
+  
+  .sold {
+    filter: brightness(50%);
+  }
+
+  &__tail::after {
+    content: "";
+    width: 15px;
+    height: 15px;
+    display: block;
+    position: absolute;
+    background-color: #001027;
+    right: -8px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
+
+.league-info {
+  background-color: #001027;
+  color: #d2dfed;
+
+  &__title,
+  &__tier {
+    color: white;
+  }
+
+  &__win-looses {
+    margin-bottom: 5px;
+  }
+
+  .ant-card-head {
+    color: #d2dfed;
+  }
+
+  &__tier {
+    font-size: 14px;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+
+  &__lp {
+    font-size: 13px;
+  }
+
+  img {
+    width: 80px;
+  }
+}
+
+.white {
+  color: white;
+}
+
+.red {
+  color: #E97777;
+}
+
+.light-red {
+  color: #3e223b71;
+}
+
+.dark-red {
+  color: #3e223b;
+}
+
+.blue {
+  color: #08d1f5 !important;
+}
+
+.light-blue {
+  color: #08d1f520;
+}
+
+.dark-blue {
+  color: #1e2b5e;
+}
+
+.orange {
+  color: orange !important;
+}
+
+.grey {
+  color: rgba(250, 250, 250, 0.75);
+}
+
+a {
+  color: white;
+}

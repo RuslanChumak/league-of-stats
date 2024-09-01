@@ -1,0 +1,46 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "target": "es6",
+    "moduleResolution": "node",
+    "isolatedModules": false,
+    "jsx": "react",
+    "lib": [
+      "es6",
+      "es2017",
+      "dom"
+    ],         
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,        
+    "preserveConstEnums": true,
+    "declaration": false,
+    "noImplicitUseStrict": false,
+    "removeComments": true,
+    "noLib": false,             
+    "suppressImplicitAnyIndexErrors": true,                
+    "noUnusedLocals": true,    
+    "strictNullChecks": true,
+    "plugins": [{ 
+      "name": "typescript-tslint-plugin",
+      "configFile": "./tslint.json",
+    }],
+    "skipLibCheck": true
+  },    
+  "awesomeTypescriptLoaderOptions": {
+    "useBabel": true,
+    "babelOptions": {
+      "plugins": [["import", { "libraryName": "antd", "style": true }]]
+    },
+    "forceIsolatedModules": true,
+    "reportFiles": [
+      "src/**/*.{ts,tsx,png}"
+    ]
+  },
+  "include": [    
+    "src/**/*.tsx",
+    "src/**/*.ts",
+    "src/**/*.png",
+    "src/**/*.json"
+  ]
+}

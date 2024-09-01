@@ -1,0 +1,67 @@
+.home {
+  .home-art {
+    height: 318px;
+    width: 564px;
+    background-image: url('../images/home-art.png');
+  }
+
+  .feature-game {
+    img {
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+    }
+
+    &__first {
+      text-align: right;
+    }
+
+    .truncate-name {
+      display: block;
+      font-size: 12px;
+      width: 90px;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      overflow: hidden;
+    }
+  }
+
+  .ant-select-auto-complete {
+    width: 25vw;
+    height: 20px;
+    font-size: 17px;
+  }
+
+  .region-select {
+    width: 200px;
+  }
+
+  .champion-rotatin {
+    margin-top: 20px;
+
+    img {
+      width: 65px;
+    }
+
+    .ant-card-head {
+      color: #d2dfed;
+    }
+
+    .ant-card {
+      background-color: #001027;
+      color: #d2dfed;
+    }
+  }
+}
+
+.search-option {
+  img {
+    width: 30px;
+    height: 30px;
+  }
+
+  &__lvl {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 11px;
+  }
+}

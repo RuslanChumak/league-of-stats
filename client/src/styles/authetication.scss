@@ -1,0 +1,45 @@
+.form-container {
+  width: 400px;
+  background-color: #1e2b5e;
+  border-color: #001027;
+  
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+  img {
+    width: 60px;
+    height: 60px;
+  }
+
+  &__title {
+    color: white;
+    font-size: 25px;
+    font-weight: 650;
+  }
+
+  h2 {
+    color: white;
+  }
+
+  a {
+    color: #08d1f5;
+  }
+
+  a:hover {
+    color: #1677ff;
+  }
+
+  .register-link {
+    color: white;
+  }
+
+  .login-form-button {
+    margin-right: 20px;
+  }
+
+  .header-search {
+    margin-left: unset !important;
+  }
+}

@@ -1,0 +1,59 @@
+.runes {
+  margin-top: 20px;
+
+  &__title {
+    background-color: #001027;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    display: flex;
+    font-size: 11px;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      margin-right: 5px;
+      width: 20px !important;
+      height: 20px !important;
+    }
+  }
+
+  &__perk-col {
+    margin-top: 10px;
+  }
+
+  &__perk-img {
+    width: 30px !important;
+    height: 30px;
+    filter: brightness(50%);
+  }
+
+  .selected {
+    filter: brightness(100%);
+    border: 2px solid #08d1f5;
+    border-radius: 50%;
+  }
+
+  .main-img {
+    width: 40px !important;
+    height: 40px;
+    border: unset !important;
+  }
+
+  &__sub-perk-img {
+    width: 25px !important;
+    height: 25px !important;
+    filter: brightness(50%);
+  }
+
+  &__stat-perk-img {
+    width: 20px !important;
+    height: 20px !important;
+    filter: brightness(50%);
+  }
+
+  .ant-divider {
+    border-top-color: rgba(255, 255, 255, 0.7);
+    margin: 15px 0 !important;
+  }
+}
